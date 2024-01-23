@@ -310,6 +310,10 @@ footer .footer-bottom a {
         margin-left: 4px;
     }
 
+    footer .footer-top .vec ul {
+        margin-top: 5px;
+    }
+
     footer .footer-top .kontakt ul li img {
         width: 18px;
     }
