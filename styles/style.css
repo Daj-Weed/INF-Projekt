@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'skyerregular';
+    src: url("http://127.0.0.1:5500/INF-Izdelek/Fonts/fontsfree-net-skyer-400-webfont.woff2") format('woff2'),
+         url("http://127.0.0.1:5500/INF-Izdelek/Fonts/fontsfree-net-skyer-400-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'skyerregular', sans-serif;
+    font-weight: 1000;
+    font-size: 1.2rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 100vw;
+    min-height: 10vh;
+    background-color: #DAA588;
+}
+
+.logotip {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
+.logotip img {
+    height: 50px;
+}
+
+.logotip .name {
+    margin-left: 1rem;
+}
+
+.linki {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+.linki li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.linki li a {
+    display: inline-block;
+    position: relative;
+    color: #FFFFFF;
+    margin-right: 2rem;
+    padding-bottom: 0.25rem;
+}
+
+.linki li a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #FFFFFF;
+    transition: width 0.4s ease-in-out;
+}
+
+.linki li a:hover::before {
+    width: 100%;
+}
+
+header {
+    min-height: 90vh;
+}
+
+footer {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100vw;
+    background-color: #DAA588;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+footer .footer-top {
+    display: flex;
+    justify-content: space-around;
+    min-width: 100vw;
+    margin-bottom: 40px;
+}
+
+footer .footer-top .kontakt ul {
+    margin-top: 5px;
+}
+
+footer .footer-top .kontakt ul li {
+    display: flex;
+    align-items: center;
+}
+
+
+footer .footer-top .kontakt ul li a {
+    font-size: 1rem;
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+
+footer .footer-top .kontakt ul li img {
+    width: 20px;
+}
+
+footer .footer-top .vec ul li a {
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+footer .footer-bottom {
+    font-size: 0.8rem;
+}
+
+footer .footer-bottom a {
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1000px) {
+    
+}
