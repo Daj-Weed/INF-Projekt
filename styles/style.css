@@ -248,6 +248,16 @@ footer .footer-bottom a {
     }
 }
 
+@media screen and (max-width: 425px) {
+    nav .logotip {
+        margin-left: 0;
+    }
+
+    nav #burgerID {
+        margin-right: 1rem;
+    }
+}
+
 @media screen and (max-width: 375px) {
     nav .burger div {
         width: 25px;
