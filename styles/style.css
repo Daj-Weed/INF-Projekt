@@ -8,8 +8,8 @@
 
 @font-face {
     font-family: 'skyerregular';
-    src: url("http://127.0.0.1:5500/INF-Izdelek/Fonts/fontsfree-net-skyer-400-webfont.woff2") format('woff2'),
-         url("http://127.0.0.1:5500/INF-Izdelek/Fonts/fontsfree-net-skyer-400-webfont.woff") format('woff');
+    src: url("https://monkey-market.netlify.app/Fonts/fontsfree-net-skyer-400-webfont.woff2") format('woff2'),
+         url("https://monkey-market.netlify.app/Fonts/fontsfree-net-skyer-400-webfont.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -135,6 +135,8 @@ footer .footer-bottom a {
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 1000px) {
-    
+@media screen and (max-width: 1170px) {
+    nav .linki {
+        display: none;
+    }
 }
