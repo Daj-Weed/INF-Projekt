@@ -80,7 +80,7 @@ nav {
     width: 100%;
 }
 
-nav .burger {
+nav #burgerID {
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -94,6 +94,28 @@ nav .burger div {
     border-radius: 4px;
     padding: 1px;
     background-color: #FFFFFF;
+    transition: 0.5s;
+}
+
+nav .burger_cross div {
+    width: 30px;
+    height: 4px;
+    border-radius: 4px;
+    padding: 1px;
+    background-color: #FFFFFF;
+    transition: 0.5s;
+}
+
+nav .burger_cross .line1 {
+    transform: translateY(10px) rotateZ(45deg); 
+}
+
+nav .burger_cross .line3 {
+    transform: translateY(-11px) rotateZ(-45deg); 
+}
+
+nav .burger_cross .line2 {
+    display: none;
 }
 
 .drop_down {
@@ -208,7 +230,7 @@ footer .footer-bottom a {
         display: none;
     }
 
-    nav .burger {
+    nav #burgerID {
         display: flex;
     }
 
