@@ -88,6 +88,10 @@ nav #burgerID {
     margin-right: 2rem;
 }
 
+nav #burgerID:hover {
+    cursor: pointer;
+}
+
 nav .burger div {
     width: 30px;
     height: 4px;
@@ -98,7 +102,7 @@ nav .burger div {
 } 
 
 nav .burger_cross div {
-    width: 30px;
+    width: 35px;
     height: 4px;
     border-radius: 4px;
     padding: 1px;
@@ -107,13 +111,13 @@ nav .burger_cross div {
 }
 
 nav .burger_cross .line1 {
-    transform: translateY(0.5rem) rotateZ(45deg); 
-    width: 35px;
+    transform: rotateZ(45deg);
+    margin-bottom: -1.2vh;
 }
 
 nav .burger_cross .line3 {
-    transform: translateY(-0.6rem) rotateZ(-45deg); 
-    width: 35px;
+    transform: rotateZ(-45deg);
+    margin-top: -1.2vh;
 }
 
 nav .burger_cross .line2 {
@@ -241,6 +245,19 @@ footer .footer-bottom a {
 
     .drop_down .drop_down_linki {
         display: flex;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    nav .burger div {
+        width: 25px;
+        height: 2px;
+        padding: 1px;
+    }
+
+    nav .burger_cross div {
+        width: 24px;
+        height: 2px;
     }
 }
 
