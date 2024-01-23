@@ -217,6 +217,10 @@ footer .footer-top .kontakt ul li img {
     width: 20px;
 }
 
+footer .footer-top .vec {
+    margin-right: 2.2rem;
+}
+
 footer .footer-top .vec ul li a {
     color: #FFFFFF;
     font-size: 1rem;
@@ -224,6 +228,7 @@ footer .footer-top .vec ul li a {
 
 footer .footer-bottom {
     font-size: 0.8rem;
+    margin-right: 1rem;
 }
 
 footer .footer-bottom a {
@@ -256,6 +261,27 @@ footer .footer-bottom a {
     nav #burgerID {
         margin-right: 1rem;
     }
+
+    footer .footer-top {
+        font-size: 1rem;
+    }
+
+    footer .footer-top .kontakt ul li a {
+        font-size: 0.8rem;
+        margin-left: 5px;
+    }
+
+    footer .footer-top .kontakt ul li img {
+        width: 18px;
+    }
+
+    footer .footer-top .vec ul li a {
+        font-size: 0.8rem;
+    }
+
+    footer .footer-bottom {
+        margin-right: 2rem;
+    }
 }
 
 @media screen and (max-width: 390px) {
@@ -270,10 +296,40 @@ footer .footer-bottom a {
         height: 2px;
         padding: 1px;
     }
+
+    footer .footer-top .kontakt ul li a {
+        font-size: 0.7rem;
+        margin-left: 4px;
+    }
+
+    footer .footer-top .kontakt ul li img {
+        width: 18px;
+    }
+
+    footer .footer-top .vec ul li a {
+        font-size: 0.7rem;
+    }
 }
 
 @media screen and (max-width: 340px) {
     nav .logotip .name {
         font-size: 1.4rem;
+    }
+
+    footer .footer-top {
+        font-size: 0.8rem;
+    }
+
+    footer .footer-top .kontakt ul li a {
+        font-size: 0.6rem;
+        margin-left: 3px;
+    }
+
+    footer .footer-top .kontakt ul li img {
+        width: 16px;
+    }
+
+    footer .footer-top .vec ul li a {
+        font-size: 0.6rem;
     }
 }
