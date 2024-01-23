@@ -83,7 +83,7 @@ nav {
 nav #burgerID {
     display: none;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     min-height: 4vh;
     margin-right: 2rem;
 }
@@ -95,7 +95,7 @@ nav .burger div {
     padding: 1px;
     background-color: #FFFFFF;
     transition: 0.5s;
-}
+} 
 
 nav .burger_cross div {
     width: 30px;
@@ -107,11 +107,13 @@ nav .burger_cross div {
 }
 
 nav .burger_cross .line1 {
-    transform: translateY(0.8rem) rotateZ(45deg); 
+    transform: translateY(0.5rem) rotateZ(45deg); 
+    width: 35px;
 }
 
 nav .burger_cross .line3 {
-    transform: translateY(-0.8rem) rotateZ(-45deg); 
+    transform: translateY(-0.6rem) rotateZ(-45deg); 
+    width: 35px;
 }
 
 nav .burger_cross .line2 {
