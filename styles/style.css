@@ -297,8 +297,16 @@ footer .footer-bottom a {
         padding: 1px;
     }
 
+    footer .footer-top .vec {
+        font-size: 0.8rem;
+    }
+
+    footer .footer-top .kontakt {
+        font-size: 0.8rem;
+    }
+
     footer .footer-top .kontakt ul li a {
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         margin-left: 4px;
     }
 
@@ -307,7 +315,7 @@ footer .footer-bottom a {
     }
 
     footer .footer-top .vec ul li a {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 }
 
