@@ -245,7 +245,7 @@ footer .footer-bottom a {
     nav .logotip {
         margin-top: 0;
         margin-left: 1rem;
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     nav .linki {
@@ -269,7 +269,7 @@ footer .footer-bottom a {
 @media screen and (max-width: 425px) {
     nav .logotip {
         margin-left: 0;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     nav #burgerID {
@@ -300,7 +300,7 @@ footer .footer-bottom a {
 
 @media screen and (max-width: 390px) {
     nav .logotip {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     nav .burger div {
@@ -343,7 +343,7 @@ footer .footer-bottom a {
 
 @media screen and (max-width: 340px) {
     nav .logotip {
-        font-size: 0.8rem;
+        font-size: 1.5rem;
     }
 
     footer .footer-top {
