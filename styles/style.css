@@ -4,7 +4,6 @@
     text-decoration: none;
     list-style: none;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 body {
@@ -146,6 +145,7 @@ header .second::before {
 
 header .second::after {
     content: "";
+    overflow-x: hidden;
     position: absolute;
     height: 300px;
     width: 120%;
