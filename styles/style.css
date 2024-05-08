@@ -146,6 +146,7 @@ header .second::before {
 header .second::after {
     content: "";
     overflow-x: hidden;
+    overflow-y: hidden;
     position: absolute;
     height: 300px;
     width: 120%;
